@@ -1,6 +1,5 @@
 package com.oops;
 
-import java.awt.DefaultFocusTraversalPolicy;
 
 /* calling one constructor from another constructor within the same class,this help avoid duplicate
  and improves reusability

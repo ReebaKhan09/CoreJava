@@ -4,17 +4,18 @@ public class fibonicca {
 
 	public static void main(String[] args) {
 		// in  fibonacci series,next number is the sum of previous two number;
-		int n1=0,n2=1,n3,i = 0,count=10;
-		System.out.println(n1+"" +n2);
 		
-		for(i=2;i<count;++i) {
-			
-			n3=n1+n2;
-			System.out.println(" "+n3);
-			n1=n2;
-			n2=n3;
-			
-		
-		}}
-
-}
+		//using for loops
+	int f1=0;
+	int s2=1;
+	 
+	for(int i=3;i<=10;i++) {
+		int n=f1+s2;
+		System.out.println("fibannici series " +n);
+		f1=s2;
+		s2=n;
+	}
+	
+	}
+	
+	}
